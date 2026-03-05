@@ -27,8 +27,8 @@ class ATMSystem:
     def __init__(self):
         # Simulated database of accounts
         self.registry = {
-            "1001": Account("1001", "5566", 2500.00),
-            "1002": Account("1002", "7788", 500.00)
+            "2025": Account("2025", "2525", 5000.00),
+            "2026": Account("2026", "2626", 700.00)
         }
         self.active_session = None
 
